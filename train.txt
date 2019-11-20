@@ -1,0 +1,11 @@
+build/darknet/x64/data/obj/TextImage1.jpg
+build/darknet/x64/data/obj/TextImage2.jpg
+build/darknet/x64/data/obj/TextImage3.jpg
+build/darknet/x64/data/obj/TextImage4.jpg
+build/darknet/x64/data/obj/TextImage5.jpg
+build/darknet/x64/data/obj/TextImage6.jpg
+build/darknet/x64/data/obj/TextImage7.jpg
+build/darknet/x64/data/obj/TextImage8.jpg
+build/darknet/x64/data/obj/TextImage9.jpg
+build/darknet/x64/data/obj/TextImage10.jpg
+build/darknet/x64/data/obj/TextImage11.jpg
