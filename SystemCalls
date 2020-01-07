@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<fcntl.h>
+#include<string.h>
+
+void main()
+{
+int fd;
+
+fd = open("testFile.txt",O_CREAT | O_RDWR);
+
+if(fd<0)
+{
+printf("There was an error opening file\n");
+exit(0);
+}
+
+//printf("The file was open at %d\n",fd);
+
+int writeCode = write(fd,"Test Data",9);
+
+if(writeCode<0)
+{
+printf("There was an error writing in file\n");
+//exit(0);
+}
+
+//printf("The number of bytes successfully written are %d\n",writeCode);
+
+int closeCode = close(fd);
+if(closeCode<0)
+{
+printf("There was an error closing file\n");
+//exit(0);
+}
+
+//printf("File Successfully close with code %d\n",closeCode);
+}
